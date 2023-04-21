@@ -1,0 +1,104 @@
+body {
+	background-image: url("/img/fondo.png");
+	background-size: cover;
+	background-position: center;
+}
+
+h1 {
+	text-align: center;
+    color: aliceblue;
+}
+
+form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+    color: aliceblue;
+}
+
+
+label {
+	display: block;
+}
+
+#total-stats {
+	margin-top: 20px;
+	padding: 10px;
+	background-color: #ddd;
+}
+header {
+	display: flex;
+	align-items: center;
+}
+
+header img {
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+}
+.logitos {
+    height:0%;
+    max-width:0%; /* ajusta el ancho máximo de la imagen según tus necesidades */
+    vertical-align: middle; /* alinea verticalmente la imagen con el texto */
+    margin-left: 5px; /* agrega un espacio a la izquierda de la imagen */
+  }
+  
+
+button {
+    background-color: #4CAF50; /* Cambia el color de fondo */
+    border: none;
+    color: white; /* Cambia el color del texto */
+    padding: 10px 20px; /* Cambia el tamaño del padding para hacer los botones más grandes */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; /* Cambia el tamaño de la fuente */
+    border-radius: 5px; /* Agrega un borde redondeado al botón */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Agrega una sombra al botón */
+    transition: background-color 0.3s ease; /* Agrega una transición al cambiar el color de fondo */
+  }
+  
+  button:hover {
+    background-color: #3e8e41; /* Cambia el color de fondo al pasar el cursor sobre el botón */
+  }
+  
+
+
+/* Estilos generales para todos los tamaños de pantalla */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.character img {
+    max-width: 10em;
+    height: auto;
+  }
+  
+.Fortaleza img {
+    max-width: 10em;
+    height: auto;
+}
+
+/* Estilos para pantallas de hasta 768px de ancho */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+/* Estilos para pantallas de hasta 480px de ancho */
+@media (max-width: 480px) {
+    .container {
+        padding: 5px;
+    }
+}
+
+
+
+
+
+
+
